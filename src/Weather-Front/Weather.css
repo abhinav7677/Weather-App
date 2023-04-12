@@ -1,0 +1,59 @@
+.Weather {
+    width: 75%;
+    margin-top: 10px;
+}
+
+.Weather button.search,
+.Weather button.locate {
+    padding: 10px;
+    margin: 8px;
+    font-size: 25px;
+    background: transparent;
+    border: none;
+    border-radius: 50px;
+    box-shadow: 0px 2px 3px rgb(210, 208, 208);
+}
+
+.Weather.loader {
+    display: flex;
+    justify-content: center;
+}
+
+button:hover,
+.Weather button:hover {
+    background: rgb(232, 229, 238);
+}
+
+.Weather input.city {
+    width: 70%;
+    padding: 2%;
+    padding-left: 20px;
+    font-size: 18px;
+    border-radius: 50px;
+    border: 1.5px solid rgb(138, 92, 255);
+    background: transparent;
+    color: whitesmoke;
+}
+
+.Weather input.city:focus {
+    outline: none;
+    box-shadow: 0 0 3px rgb(138, 92, 255);
+}
+
+.search-bar {
+    width: 95%;
+    display: flex;
+    margin-left: 3%;
+    columns: 3;
+    column-gap: 18px;
+}
+
+.Weather canvas {
+    margin: 10px auto;
+}
+
+@media screen and (max-width: 676px) {
+    .Weather {
+        width: 100%;
+    }
+}
