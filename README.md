@@ -1,1 +1,1 @@
-# Weather-App_React
+# Weather-App
